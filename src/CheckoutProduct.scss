@@ -1,0 +1,38 @@
+.checkoutProduct {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+}
+
+.checkoutProduct__item {
+  display: flex;
+}
+
+.checkoutProduct__itemInfo {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.checkoutProduct__itemRating {
+  margin: 10px;
+}
+
+.checkoutProduct__item > img {
+  height: 180px;
+  width: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.checkoutProduct__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.checkoutProduct__itemInfo > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #486a29;
+  width: 140px;
+}
