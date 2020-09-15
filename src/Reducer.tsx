@@ -1,6 +1,7 @@
 export const action = {
   add: "ADD_TO_BASKET",
   remove: "REMOVE_FROM_BASKET",
+  setUser: "SET_USER",
 };
 
 export const initialState = {
@@ -29,6 +30,11 @@ const reducer = (state: any, action: any) => {
       return {
         ...state,
         basket: newBasket,
+      };
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
       };
     default:
       return state;
