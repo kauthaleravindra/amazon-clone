@@ -29,3 +29,18 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media only screen and (max-width: 600px) {
+  .empty__basket {
+    width: 90%;
+    margin: 0;
+    padding: 20px;
+  }
+  .checkout {
+    flex-direction: column;
+  }
+  .checkout__right {
+    display: flex;
+    justify-content: center;
+  }
+}

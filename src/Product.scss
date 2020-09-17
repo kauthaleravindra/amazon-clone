@@ -39,3 +39,10 @@
   border-color: #a88734 #9c7e31 #486a29;
   width: 140px;
 }
+
+@media only screen and (max-width: 600px) {
+  .product {
+    margin: 10px 0;
+    width: 300px;
+  }
+}

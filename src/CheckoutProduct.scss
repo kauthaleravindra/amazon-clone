@@ -36,3 +36,19 @@
   border-color: #a88734 #9c7e31 #486a29;
   width: 140px;
 }
+
+@media only screen and (max-width: 600px) {
+  .empty__basket {
+    width: 90%;
+    margin: 0;
+    padding: 20px;
+  }
+  .checkoutProduct__item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .checkoutProduct__itemInfo {
+    align-items: center;
+  }
+}
